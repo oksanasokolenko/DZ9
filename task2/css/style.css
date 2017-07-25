@@ -1,0 +1,56 @@
+.title-name{
+  padding: 18px 0 18px 0 !important;
+}
+
+.container .row.expand {
+  margin: 0 !important;
+}
+
+.row.expand .col {
+  padding: 0;
+}
+
+.top-navigation {
+  margin: 20px 0;
+}
+
+.top-navigation li {
+  list-style: none;
+  width: 14.2857%;
+  width: calc(100%/7);
+}
+
+.top-navigation li:not(:nth-last-child(1)) {
+  border-right: 1px solid white;
+}
+
+.second-navigation {
+  float: right;
+}
+
+.second-navigation li {
+  display: inline;
+  padding: 0 2px 0 30px;
+}
+
+.grid {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 50%;
+  margin-left: -35%;
+}
+
+.grid .row {
+  height: 100%;
+}
+
+.grid .row div {
+  background: rgba(7, 120, 172, 0.75);
+}
+.images-second-row{
+  margin-top:0;
+}
+.navigation-height{
+  height: 220vh;
+}
